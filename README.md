@@ -56,8 +56,3 @@ Features include:
      jupyter notebook
    To run the app:
      streamlit run app.py
-
-
-
-   git clone https://github.com/yourusername/diabetes-prediction.git
-   cd diabetes-prediction
