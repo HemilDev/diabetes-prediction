@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ### Run the Web App:
 python diabetes_prediction_web_app.py
 
----
+```
 🖼️ Screenshots
 
 <img width="1920" height="1080" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/dd75e671-b039-463d-8735-a3182e10212d" />
@@ -49,7 +49,4 @@ python diabetes_prediction_web_app.py
 ├── diabetes_prediction_web_app.py
 ├── trained model.sav
 ├── README.md
-└── .ipynb_checkpoints/
 
-git clone https://github.com/HemilDev/diabetes-prediction.git
-cd diabetes-prediction
