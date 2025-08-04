@@ -1,58 +1,55 @@
-# Diabetes Prediction
+# 🩺 Diabetes Prediction
 
-This project uses machine learning techniques to predict whether a person is likely to have diabetes based on various health-related features.
+This project uses machine learning to predict whether a person is likely to have diabetes based on various health-related metrics. It includes a web application interface to allow users to input their data and get predictions in real time.
 
-## 🧠 Objective
-
-The main goal is to build a predictive model using historical health data that can classify whether an individual is diabetic or not.
-
-## 📁 Project Structure
-
-📦 Diabetes Prediction
-├── data/ # Dataset files
-├── model/ # Trained model files
-├── notebooks/ # Jupyter Notebooks for analysis
-├── app.py # Main Python app (optional - if using Streamlit/Flask)
-├── requirements.txt # List of dependencies
-└── README.md # This file
-
-
-## 🧪 Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib / Seaborn
-- Jupyter Notebook
+---
 
 ## 📊 Dataset
 
-The project uses a publicly available diabetes dataset (e.g., Pima Indians Diabetes Dataset).
-
-Features include:
+The model is trained on the popular [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database), which includes the following features:
 - Pregnancies
 - Glucose
-- Blood Pressure
-- Skin Thickness
+- BloodPressure
+- SkinThickness
 - Insulin
 - BMI
-- Diabetes Pedigree Function
+- DiabetesPedigreeFunction
 - Age
+
+---
+
+## 🧠 Model
+
+A machine learning classification model was trained and saved using:
+- `scikit-learn` for modeling
+- `pickle` for saving the model (`trained model.sav`)
+
+---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+### Clone the Repository:
+```bash
 
-      ```bash
-   git clone https://github.com/yourusername/diabetes-prediction.git
-   cd diabetes-prediction
+### Install Dependencies:
+pip install -r requirements.txt
 
-2. Install dependencies:
-   pip install -r requirements.txt
+### Run the Web App:
+python diabetes_prediction_web_app.py
 
-3. Run the notebook or the app:
-   To open the notebook:
-     jupyter notebook
-   To run the app:
-     streamlit run app.py
+---
+🖼️ Screenshots
+
+<img width="1920" height="1080" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/dd75e671-b039-463d-8735-a3182e10212d" />
+
+----
+📁 Project Structure
+├── Diabetes Prediction.ipynb
+├── diabetes.csv
+├── diabetes_prediction_web_app.py
+├── trained model.sav
+├── README.md
+└── .ipynb_checkpoints/
+
+git clone https://github.com/HemilDev/diabetes-prediction.git
+cd diabetes-prediction
